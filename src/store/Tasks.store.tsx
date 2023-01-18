@@ -36,7 +36,7 @@ const initialState: {
   tasks: localStorage.getItem("tasks")
     ? JSON.parse(localStorage.getItem("tasks")!)
     : [],
-  directories: getSavedDirectories(),
+  directories: [],
 };
 
 const tasksSlice = createSlice({
