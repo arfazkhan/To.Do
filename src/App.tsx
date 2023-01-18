@@ -22,7 +22,8 @@ const App: React.FC = () => {
   };
 
   const createNewTaskHandler = (task: Task) => {
-    dispatch(tasksActions.addNewTask(task));
+    dispatch(tasksActions.addNewTask({...task, dir: ""}));
+
   };
 
   return (
