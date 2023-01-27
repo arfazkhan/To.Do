@@ -24,7 +24,8 @@ const AccountData: React.FC = () => {
     >
       <section className="p-5 flex flex-col h-full">
         <span className="flex items-center mx-auto">
-          <span className="font-medium">Welcome Back</span>
+       
+          <span className="font-medium">Welcome Back </span>
           <img src={avatar1} alt="cat" className="w-10 rounded-full ml-4" />
         </span>
 
@@ -33,10 +34,10 @@ const AccountData: React.FC = () => {
         <TasksDone />
         <DeleteTasks />
         <a
-          href="https://github.com/arfazkhan"
-          className="mt-4 bg-rose-100 p-2 rounded-md text-rose-600 text-center transition hover:bg-rose-200 dark:bg-slate-700/[.3] dark:text-slate-200"
-        >
-          With ❤ by Arfaz Khan
+            href=""
+            className="mt-4 bg-rose-100 p-2 rounded-md text-rose-600 text-center transition hover:bg-rose-200 dark:bg-slate-700/[.3] dark:text-slate-200"
+              >
+  Sign Out
         </a>
       </section>
     </LayoutMenus>
